@@ -1,0 +1,27 @@
+{
+  "name": "paralax-seneca",
+  "version": "1.0.0",
+  "description": "Example of creating a website with a parallax effect",
+  "author": "Almukhametov Amir <amir.a@list.ru> (https://t.me/Saitama1313)",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.8.0",
+    "sass": "^1.69.4",
+    "sass-loader": "^13.3.2",
+    "vue": "^3.3.6",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "gsap-trial": "^3.12.2"
+  }
+}
